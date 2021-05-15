@@ -16,7 +16,7 @@ serde-yaml-risp = "0.1"
 
 ### Using the library
 
-```rs
+```rust
 extern crate risp;
 
 use risp::core::create_core_environment;
