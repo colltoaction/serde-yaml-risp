@@ -1,0 +1,4 @@
+# (def my_vector [1 my_int 3])
+- def
+- my_vector
+- [vec!, 1, my_int, 3]

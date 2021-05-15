@@ -1,0 +1,19 @@
+[package]
+name = "serde-yaml-risp"
+version = "0.1.0"
+authors = ["Martín Coll <martingonzalezcoll@gmail.com>"]
+edition = "2018"
+license = "CC0-1.0"
+description = "A YAML-based syntax for risp the rusty Lisp"
+homepage = "https://github.com/colltoaction/"
+repository = "https://github.com/colltoaction/serde-yaml-risp/"
+keywords = ["lisp", "yaml"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+risp = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+serde_test = "1.0.117"

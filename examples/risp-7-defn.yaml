@@ -1,0 +1,8 @@
+# ; Define a function
+# (defn double [x] (* x 2))
+- defn
+- double
+- - x
+- - "*"
+  - x
+  - 2
